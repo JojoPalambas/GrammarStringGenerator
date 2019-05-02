@@ -1,0 +1,62 @@
+nil
+5
+"totor"
+int [nil] of break
+int {} 
+int {x = 5} 
+int {x = nil, x = 5} 
+new int
+x
+x.x
+x[nil]
+x()
+x(break, "totor")
+x.x()
+x.x("totor", 5)
+-nil
+nil+"totor"
+nil-"totor"
+nil*"totor"
+nil/"totor"
+nil&"totor"
+nil|"totor"
+(break)
+(5)
+(break ; 5)
+()
+x := break
+if "totor" then "totor"
+if 5 then break else break
+while break do 5
+for x := 5 to nil do ()
+break
+let  in 5 end
+let type x = int in 5 end
+let type x = int in 5 end
+let type x = {} in 5 end
+let type x = {x : int} in 5 end
+let type x = {x : int} in 5 end
+let type x = {x : int, x : int} in 5 end
+let type x = array of int in 5 end
+let type x = class extends int{} in 5 end
+let type x = class extends int{var x := ()} in 5 end
+let type x = class extends int{var x := 5} in 5 end
+let type x = class extends int{var x : int := ()} in 5 end
+let type x = class extends int{var x := 5} in 5 end
+let type x = class extends int{method x() : int = ()} in 5 end
+let type x = class extends int{method x() = "totor"} in 5 end
+let type x = class extends int{var x := 5} in 5 end
+let type x = class extends int{var x := 5 var x := 5} in 5 end
+let type x = class {} in 5 end
+let class x extends int {}  in 5 end
+let class x {}  in 5 end
+let var x := 5 in 5 end
+let var x := 5 in 5 end
+let function x() : int = nil in 5 end
+let function x() = () in 5 end
+let import "empty.tih" in 5 end
+let var x := 5 in 5 end
+let var x := 5 var x := 5 in 5 end
+let  in end
+
+5
